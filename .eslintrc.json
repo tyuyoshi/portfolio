@@ -1,8 +1,13 @@
 {
-  "extends": ["next/core-web-vitals", "plugin:react/recommended", "plugin:prettier/recommended"],
-  // "rules": {
-  //   // ここに追加のルールを記述します
-  // },
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    // ここに追加のルールを記述します
+    "react/react-in-jsx-scope": "off"
+  },
   "env": {
     "browser": true,
     "node": true
